@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.sectionA {
+  padding: 7% 0px;
+}
+
+.team-info {
+  background-color: white;
+  box-sizing: border-box;
+  padding: 10%;
+  position: relative;
+  top: -40px;
+  margin: 0px 10%;
+  box-shadow: 1px 1px 20px grey;
+  text-align: center;
+}
+
+.team-info > h1 {
+  font-size: 20px;
+  color: #e83e8c;
+  text-align: center;
+  font-weight: 600;
+}
+.team-info > h4 {
+  font-size: 16px;
+  color: gray;
+  text-align: center;
+  font-weight: 300;
+}
+.team-info > ul {
+  list-style: none;
+  overflow: hidden;
+  padding: 0;
+  padding-top: 10px;
+}
+
+.team-info > ul > li > b > span > a {
+  float: left;
+  width: 25%;
+  font-size: 20px;
+  color: slateblue;
+}
+
+.team:hover .team-img {
+  transform: scale(0.95);
+  padding: 5%;
+  transform: all 0.5s linear;
+  background-color: rgb(62, 203, 49);
+}
