@@ -15,14 +15,14 @@ body {
     background-repeat: repeat;
 }
 
-.subbtn {
+.sub_btn {
     cursor: pointer;
     width: 150px;
     background-color: transparent;
     border-color: white;
     color: white;
 }
-
+ 
 h1 {
     color: white;
 }
