@@ -20,16 +20,15 @@ body {
   border-color: white;
   color: blueviolet;
 }
-input::placeholder{
-    color : black;
-
+input::placeholder {
+  color: black;
 }
 
 h1 {
   color: rgba(137, 43, 226, 0.486);
 }
 label {
-    display: inline-block;
+  display: inline-block;
   color: black;
   width: 140px;
 }
