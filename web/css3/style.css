@@ -1,0 +1,19 @@
+.box {
+    width: 400px;
+    height: 200px;
+    border: 2px solid paleturquoise;
+    overflow: scroll;
+}
+
+.box2 {
+    border: 2px solid brown;
+    width: 400px;
+    height: 200px;
+
+
+}
+
+.images .logo {
+    height: 100px;
+    width: 100px;
+}
