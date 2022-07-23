@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    Name:<input type="text" class="mytext" value="abcd">
+    <p>Click the button to change value of the text field</p>
+    <button onclick=myfunction1()>Try it</button>
+    <p class="demo">JS demo</p>
+    <p>click the button to change the color of p tag</p>
+    <button onclick="myfunction2()">try it to change tag color</button>
+    <ul>
+        <li >Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+
+    <button onclick="myFunction3()">Try it</button>
+
+    <p class="demo2"></p>
+    <script>
+        function myfunction1() {
+          x=  document.getElementsByClassName("mytext");
+             for (var i = 0; i < x.length; i++) {
+                x[i].value="wxyz";
+            }
+        }
+
+       x= document.getElementsByClassName("demo");
+        for (var i = 0; i < x.length; i++) {
+                x[i].innerText="hello javascript";
+            }
+        function myfunction2() {
+            var x = document.getElementsByTagName("p");
+
+            for (var i = 0; i < x.length; i++) {
+                x[i].style.color = "red";
+            }
+        }
+
+        function myFunction3() {
+             
+             var x = document.getElementsByClassName("demo");
+             document.getElementsByTagName("LI");
+            for (var i = 0; i < x.length; i++) {
+                x[i].innerHTML=x[0].innerHTML.innerHTML;
+            }
+            
+        }
+    </script>
+</body>
+
+</html>
